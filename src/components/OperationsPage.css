@@ -1,0 +1,67 @@
+.transactions-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .transactions-title {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .transactions-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .transactions-label {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .transactions-input {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .transactions-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .transactions-deposit-button {
+    padding: 10px 20px;
+    background-color: lightgreen;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .transactions-deposit-button:hover{
+    background-color: green;
+  }
+  
+  .transactions-withdraw-button {
+    padding: 10px 20px;
+    background-color: lightcoral;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .transactions-withdraw-button:hover{
+    background-color: rgba(213, 14, 14, 0.907);
+
+  }
+  

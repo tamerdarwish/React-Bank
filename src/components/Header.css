@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: lightblue;
+  }
+  
+  .left-side {
+    display: flex;
+    gap: 20px;
+  }
+  .left-side h3:hover{
+    color: cornflowerblue;
+  }
+  
+  .right-side {
+    font-weight: bold;
+  }
+
+  .right-side h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  
